@@ -71,10 +71,8 @@ td strong {
 ul {
     text-align: left;
     padding-left: 200px;
+    list-style-type: none;
 }
-
-
-
 
 li {
     text-align: left;
