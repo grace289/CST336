@@ -21,3 +21,6 @@
 [26-Jun-2018 07:14:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/777/index.php:0
 [26-Jun-2018 07:14:55 UTC] PHP   2. play() /home/ubuntu/workspace/CST336/777/index.php:18
 [26-Jun-2018 07:14:55 UTC] PHP   3. displaySymbol() /home/ubuntu/workspace/CST336/777/inc/functions.php:6
+[26-Jun-2018 07:35:49 UTC] PHP Fatal error:  Call to undefined function play() in /home/ubuntu/workspace/CST336/777/index.php on line 13
+[26-Jun-2018 07:35:49 UTC] PHP Stack trace:
+[26-Jun-2018 07:35:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/777/index.php:0

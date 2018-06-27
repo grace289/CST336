@@ -28,6 +28,7 @@
             switch($randomValue1){
                 case 0: $totalPoints = 1000;
                     echo "<h1>Jackpot!</h1>";
+                    echo "<audio src='sound/jackpot.mp3' autoplay> </audio>";
                     break;
                 case 1: $totalPoints = 900;
                     break;
