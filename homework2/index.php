@@ -7,25 +7,47 @@ include 'inc/functions.php';
 <!DOCTYPE html>
 <html>
     <head>
-        <title> Magic 8 Ball </title>
+        <title> Mario Line Up Match Game </title>
         <style>
             @import url("css/styles.css");
             @import url('https://fonts.googleapis.com/css?family=Wendy+One');
         </style>
-
     </head>
+    
+    
     <body>
-        <div id ="main">
+        
         <header>
-            <h1>Magic 8 Ball</h1>
+            <h1>Try your luck at Mario's Line Up Match Game</h1>
         </header>
+        
+        
+        <div id ="main">
+            <div id="win">
+            <p>
+            Match all three and win a prize!<br>
+            </p>
+            </div>
+            
             <?php
                 play();
             ?>
             
             <form>
-                <input type="submit" value="Click for New Image!"/>
+                <input type="submit" value="Spin!"/>
             </form>
         </div>
+        
+    <footer>
+        <hr>
+        <figure>
+            <img id="csumb" src="img/csumb.png" alt="CSUMB Logo" />
+        </figure>
+        CST336. 2018 &copy; Alvarez<br/>
+        <strong>Disclaimer:</strong> The information in this webpage is ficticious. It is used for academic purposes only.
+        
+    </footer>
+        
+        
     </body>
 </html>

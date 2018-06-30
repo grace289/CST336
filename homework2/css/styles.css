@@ -1,74 +1,132 @@
     @import url('https://fonts.googleapis.com/css?family=Baloo+Bhaina');
 
     img {
-        border-radius:20px;
+        border-radius:0px;
     }
     
     body {
-        background-color: black;
-        background-image:url("../img/bg7.jpg");
+        background-color: #a3d7ff;
+        /*background-image:url("../img/bg7.jpg");*/
         color: white;
         
     }
     
     #main {
         font-family: 'Baloo Bhaina', cursive;
-        background-image:url("../img/machine.png");
-        width:600px;
-        height:500px;
+        /*background-image:url("../img/machine.png");*/
+        width:800px;
+        height:400px;
         position:relative;
         margin:0 auto;
     }
     
-    #reel1, #reel2, #reel3 {
-        top:248px;
-        position:absolute;
-    }
-    
-    #reel1{
-        left:145px;
-    }
-    #reel2{
-        left:252px;
-    }
-    #reel3{
-        left:357px;
-    }
-    
     input{
-        top:75px;
-        left:530px;
+        top:275px;
+        left:360px;
         position:absolute;
-        font-size:1.3em;
-        background-color: Transparent;
+        font-size:2em;
+        background-color: yellow;
         border:none;
         outline:none; /*hides button outline when clicking on it*/
         font-weight:bold;
-        color:yellow;
+        color:#004fce;
         cursor:pointer;
+        text-shadow: 2px 2px #000000;
+        transition: .6s;
+
     }
     
-    #output{
-     width:600px;   
-     margin:0 auto;
-     position:absolute;
+    header {
+    font-size: 2em;
+    text-align: center;
+    background-color: yellow;
+    color: #004fce;
+    font-family: 'Wendy One', sans-serif;
+    text-shadow: 1px 1px #000000;
+
+}
+    
+    #output1{
+     width:800px;   
+     margin-left: 10px;
+     margin-right: 10px;
+     margin-bottom: 5px;
+     position:relative;
      text-align:center;
-     top:450px;
+     top: 0px;
      font-size:1.5em;
      line-height: .7em;
     }
     
+    #output2{
+     width:800px;   
+     margin-left: 10px;
+     margin-right: 10px;
+     margin-bottom: 5px;
+     position:relative;
+     text-align:center;
+     top: -109px;
+     font-size:1.5em;
+     line-height: .7em;
+    }
+    
+    #output3{
+     width:800px;   
+     margin-left: 10px;
+     margin-right: 10px;
+     margin-bottom: 5px;
+     position:relative;
+     text-align:center;
+     top: -318px;
+     font-size:1.5em;
+     line-height: .7em;
+    }    
+    
     footer{
         font-family: "Times New Roman", Georgia, Serif;
         font-size:.8em;
-        width:600px;
-        margin:0 auto;
         padding-top:10px;
+        text-align: center;
+        color: #004fce;
     }
     
-    h1 {
-    font-family: 'Wendy One', sans-serif;
-    font-size: 2em;
-    margin-bottom: 0px;
-
+    
+    #card1{
+        position: relative;
+        margin-top: 0px;
+    }
+    #card2{
+        position: relative;
+        margin-top: 100px;
+    }
+    #card3{
+        position: relative;
+        margin-top: 200px;
+        display: inline-block;
+    }
+    
+    #csumb {
+        width: 10%;
+        height: 10%;
+    }
+    
+    hr {
+        width: 200%;
+        color: black;
+    } 
+    
+    #win {
+    text-align: center;
+    font-size: 1.5em;
+    top:-70px;
+    left:230px;
+    margin-bottom: 20px;
+    position:absolute;
+    font-weight:bold;
+    color:#004fce;
 }
+    
+
+
+
+    
