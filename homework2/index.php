@@ -25,7 +25,7 @@ include 'inc/functions.php';
         <div id ="main">
             <div id="win">
             <p>
-            Match all three and win a prize!<br>
+            Match all three!<br>
             </p>
             </div>
             
