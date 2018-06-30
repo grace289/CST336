@@ -538,3 +538,11 @@
 [30-Jun-2018 19:06:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/marioMatch/index.php:0
 [30-Jun-2018 19:06:03 UTC] PHP   2. play() /home/ubuntu/workspace/CST336/marioMatch/index.php:18
 [30-Jun-2018 19:06:03 UTC] PHP   3. displayCard2() /home/ubuntu/workspace/CST336/marioMatch/inc/functions.php:11
+[30-Jun-2018 21:37:56 UTC] PHP Fatal error:  Call to undefined function displayWin() in /home/ubuntu/workspace/CST336/homework2/inc/functions.php on line 8
+[30-Jun-2018 21:37:56 UTC] PHP Stack trace:
+[30-Jun-2018 21:37:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/homework2/index.php:0
+[30-Jun-2018 21:37:56 UTC] PHP   2. play() /home/ubuntu/workspace/CST336/homework2/index.php:33
+[30-Jun-2018 21:37:57 UTC] PHP Fatal error:  Call to undefined function displayWin() in /home/ubuntu/workspace/CST336/homework2/inc/functions.php on line 8
+[30-Jun-2018 21:37:57 UTC] PHP Stack trace:
+[30-Jun-2018 21:37:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/homework2/index.php:0
+[30-Jun-2018 21:37:57 UTC] PHP   2. play() /home/ubuntu/workspace/CST336/homework2/index.php:33

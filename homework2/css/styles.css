@@ -21,7 +21,7 @@
     }
     
     input{
-        top:275px;
+        top:320px;
         left:360px;
         position:absolute;
         font-size:2em;
@@ -51,7 +51,7 @@
      margin-left: 10px;
      margin-right: 10px;
      margin-bottom: 5px;
-     position:relative;
+     position:absolute;
      text-align:center;
      top: 0px;
      font-size:1.5em;
@@ -63,9 +63,9 @@
      margin-left: 10px;
      margin-right: 10px;
      margin-bottom: 5px;
-     position:relative;
+     position:absolute;
      text-align:center;
-     top: -109px;
+     top: 83px;
      font-size:1.5em;
      line-height: .7em;
     }
@@ -75,9 +75,9 @@
      margin-left: 10px;
      margin-right: 10px;
      margin-bottom: 5px;
-     position:relative;
+     position:absolute;
      text-align:center;
-     top: -318px;
+     top: 166px;
      font-size:1.5em;
      line-height: .7em;
     }    
@@ -126,7 +126,27 @@
     color:#004fce;
 }
     
+#winner {
+    text-align: center;
+    font-size: 1.5em;
+    top:250px;
+    left:350px;
+    margin-bottom: 20px;
+    position:absolute;
+    font-weight:bold;
+    color:#004fce;
+}
 
+#lose {
+    text-align: center;
+    font-size: 1.5em;
+    top:250px;
+    left:350px;
+    margin-bottom: 20px;
+    position:absolute;
+    font-weight:bold;
+    color:#004fce;
+}
 
 
     
