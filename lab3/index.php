@@ -16,7 +16,7 @@
     <head>
         <title>Image Carousel</title>
         <meta charset="utf-8">
-        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet">
         <style>
             @import url("css/styles.css");
             body{
@@ -57,7 +57,7 @@
                     do{
                         $randomIndex = rand(0, count($imageURLs));
                     } while(!isset($imageURLs[$randomIndex]));
-                    echo '<div class="carousel-item';
+                    echo '<div class="carousel-item ';
                     echo($i == 0) ? "active": "";
                     echo '">';
                     echo '<img src ="' . $imageURLs[$randomIndex] . '">';
@@ -93,10 +93,10 @@
             <select name = "category">
                 <option value="">Select One</option>
                 <option value="ocean">Sea</option>
-                <option>Forest</option>
-                <option>Mountains</option>
-                <option>Snow</option>
-                <option>Otters</option>
+                <option value ="forest">Forest</option>
+                <option value ="mountains">Mountains</option>
+                <option value ="snow">Snow</option>
+                <option value ="otter">Otters</option>
             </select>
             <input type="submit" value="Search" />
         </form>
