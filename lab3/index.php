@@ -85,7 +85,7 @@
         <br>
         <!-- HTML Form goes here! -->
         <form>
-            <input type="text" name="keyword" placeholder="Keyword" value="<?=$_GET['keyword']?>"/>
+            <input type="text" name="keyword" placeholder="keyword" value="<?=$_GET['keyword']?>"/>
             <input type="radio" id="lhorizontal" name="layout" value="horizontal">
             <label for ="Horizontal"></label><label for="lhorizontal">Horizontal</label>
             <input type="radio" id="lvertical" name="layout" value="vertical">
@@ -93,10 +93,10 @@
             <select name = "category">
                 <option value="">Select One</option>
                 <option value="ocean">Sea</option>
-                <option value ="forest">Forest</option>
-                <option value ="mountains">Mountains</option>
-                <option value ="snow">Snow</option>
-                <option value ="otter">Otters</option>
+                <option>Forest</option>
+                <option>Mountains</option>
+                <option>Snow</option>
+                <option>Otters</option>
             </select>
             <input type="submit" value="Submit" />
         </form>
