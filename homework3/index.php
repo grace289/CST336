@@ -100,7 +100,7 @@ function display($name) {
         <header>What Type of Dog Are You?</header>
     </head>
     
-    <body>
+    <body style="background-image: url('/CST336/homework3/img/dog-bone-background.jpg');">
         
         <div class="backgroundimg" />
         
