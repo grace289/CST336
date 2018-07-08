@@ -73,16 +73,13 @@ function displayResults(){
                 echo '<td><button class="btn btn-warning">Add</button></td>';
             }
             
-            echo '</tr>';
             echo '</form>';
+            echo '</tr>';
+
         }
         echo "</table>";
     }
 }
-
-
-
-
 
 
 ?>
