@@ -115,12 +115,11 @@ function displaySearchResults(){
         <hr>
         <?= displaySearchResults() ?>
         
-        
-                <footer>
+    <footer>
         <hr>
         <div class="marquee">
        <div>
-        <span>Dogs Rule!</span>
+        <span>OtterMart Product Search!</span>
        </div>
     </div>
         <figure>
@@ -130,6 +129,8 @@ function displaySearchResults(){
         <strong>Disclaimer:</strong> The information in this webpage is ficticious. It is used for academic purposes only.
         
     </footer>
+                
+               
         
     </body>
 </html>
