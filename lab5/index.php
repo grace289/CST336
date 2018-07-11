@@ -74,12 +74,16 @@ function displaySearchResults(){
 
 ?>
 
-
 <!DOCTYPE html>
 <html>
     <head>
         <title> OtterMart Product Search </title>
         <link href="css/styles.css" rel="stylesheet" type="text/css" />
+        
+        <style>
+        @import url("css/styles.css");
+        @import url('https://fonts.googleapis.com/css?family=Signika');
+        </style>
         
     </head>
     <body>
