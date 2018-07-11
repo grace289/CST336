@@ -78,6 +78,7 @@ function displaySearchResults(){
     <head>
         <title> OtterMart Product Search </title>
         <link href="css/styles.css" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
         
     </head>
     <body>

@@ -1,13 +1,17 @@
 
 body {
-    background-color: #42aaf4;
+    background-color: #c598f2;
+    text-align: center;
+    color: white;
+    font-family: 'Oswald';
 }
 header {
     color: white;
     text-align: center;
-    font-family: 'Signika';
+    font-family: 'Oswald';
     font-size: 6em;
     text-shadow: 1px 1px #000000;
+    background-color: #2c3e50;
 }
 
 title {
@@ -20,29 +24,10 @@ form {
     padding: 10px;
     text-align: center;
     box-sizing: border-box;
-    border: 2px solid blue;
+    border: 2px solid #5b278e;
 }
 label {
     color: #212ff2;
-}
-
-#answer {
-    text-align: center;
-    font-family: 'Signika';
-    font-size: 6em;
-    text-shadow: 1px 1px #000000;
-    padding-bottom: 10px;
-    color: blue;
-}
-
-.backgroundimg { 
-
-    width: 100%; 
-
-    /* Center and scale the image nicely */
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 
 .container {
@@ -87,9 +72,10 @@ hr {
 }
 
 
-h3 {
-    font-family: 'Signika', cursive;
+h1, h3 {
+    font-family: 'Oswald';
     font-size: 2em;
+    background-color: #5b278e;
     
 }
 
