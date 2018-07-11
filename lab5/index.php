@@ -13,12 +13,11 @@ function displayCategories(){
     $stmt->execute();
     $records = $stmt->fetchAll(PDO::FETCH_ASSOC);
     
-    //print_r($records); //can be used to view results
-    
     foreach($records as $record){
         echo "<option value='".$record["catID"]."' >" . $record["catName"] . "</option>";
     }
 }
+
 
 
 function displaySearchResults(){
@@ -80,11 +79,6 @@ function displaySearchResults(){
         <title> OtterMart Product Search </title>
         <link href="css/styles.css" rel="stylesheet" type="text/css" />
         
-        <style>
-        @import url("css/styles.css");
-        @import url('https://fonts.googleapis.com/css?family=Signika');
-        </style>
-        
     </head>
     <body>
         <div>
@@ -120,5 +114,22 @@ function displaySearchResults(){
         
         <hr>
         <?= displaySearchResults() ?>
+        
+        
+                <footer>
+        <hr>
+        <div class="marquee">
+       <div>
+        <span>Dogs Rule!</span>
+       </div>
+    </div>
+        <figure>
+            <img id="csumb" src="img/csumb.png" alt="CSUMB Logo" />
+        </figure>
+        CST336. 2018 &copy; Alvarez<br/>
+        <strong>Disclaimer:</strong> The information in this webpage is ficticious. It is used for academic purposes only.
+        
+    </footer>
+        
     </body>
 </html>

@@ -669,3 +669,129 @@ Stack trace:
 #1 /home/ubuntu/workspace/CST336/lab5/index.php(122): displaySearchResults()
 #2 {main}
   thrown in /home/ubuntu/workspace/CST336/lab5/index.php on line 65
+[11-Jul-2018 06:20:05 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/ubuntu/workspace/CST336/lab5/index.php:65
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/lab5/index.php(65): PDOStatement->execute(NULL)
+#1 /home/ubuntu/workspace/CST336/lab5/index.php(117): displaySearchResults()
+#2 {main}
+  thrown in /home/ubuntu/workspace/CST336/lab5/index.php on line 65
+[11-Jul-2018 06:20:07 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/ubuntu/workspace/CST336/lab5/index.php:65
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/lab5/index.php(65): PDOStatement->execute(NULL)
+#1 /home/ubuntu/workspace/CST336/lab5/index.php(117): displaySearchResults()
+#2 {main}
+  thrown in /home/ubuntu/workspace/CST336/lab5/index.php on line 65
+[11-Jul-2018 06:20:08 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/ubuntu/workspace/CST336/lab5/index.php:65
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/lab5/index.php(65): PDOStatement->execute(NULL)
+#1 /home/ubuntu/workspace/CST336/lab5/index.php(117): displaySearchResults()
+#2 {main}
+  thrown in /home/ubuntu/workspace/CST336/lab5/index.php on line 65
+[11-Jul-2018 06:20:08 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/ubuntu/workspace/CST336/lab5/index.php:65
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/lab5/index.php(65): PDOStatement->execute(NULL)
+#1 /home/ubuntu/workspace/CST336/lab5/index.php(117): displaySearchResults()
+#2 {main}
+  thrown in /home/ubuntu/workspace/CST336/lab5/index.php on line 65
+[11-Jul-2018 06:20:09 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/ubuntu/workspace/CST336/lab5/index.php:65
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/lab5/index.php(65): PDOStatement->execute(NULL)
+#1 /home/ubuntu/workspace/CST336/lab5/index.php(117): displaySearchResults()
+#2 {main}
+  thrown in /home/ubuntu/workspace/CST336/lab5/index.php on line 65
+[11-Jul-2018 06:20:10 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/ubuntu/workspace/CST336/lab5/index.php:65
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/lab5/index.php(65): PDOStatement->execute(NULL)
+#1 /home/ubuntu/workspace/CST336/lab5/index.php(117): displaySearchResults()
+#2 {main}
+  thrown in /home/ubuntu/workspace/CST336/lab5/index.php on line 65
+[11-Jul-2018 06:20:11 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/ubuntu/workspace/CST336/lab5/index.php:65
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/lab5/index.php(65): PDOStatement->execute(NULL)
+#1 /home/ubuntu/workspace/CST336/lab5/index.php(117): displaySearchResults()
+#2 {main}
+  thrown in /home/ubuntu/workspace/CST336/lab5/index.php on line 65
+[11-Jul-2018 06:21:10 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/ubuntu/workspace/CST336/lab5/index.php:65
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/lab5/index.php(65): PDOStatement->execute(NULL)
+#1 /home/ubuntu/workspace/CST336/lab5/index.php(117): displaySearchResults()
+#2 {main}
+  thrown in /home/ubuntu/workspace/CST336/lab5/index.php on line 65
+[11-Jul-2018 06:21:12 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/ubuntu/workspace/CST336/lab5/index.php:65
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/lab5/index.php(65): PDOStatement->execute(NULL)
+#1 /home/ubuntu/workspace/CST336/lab5/index.php(117): displaySearchResults()
+#2 {main}
+  thrown in /home/ubuntu/workspace/CST336/lab5/index.php on line 65
+[11-Jul-2018 06:21:13 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/ubuntu/workspace/CST336/lab5/index.php:65
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/lab5/index.php(65): PDOStatement->execute(NULL)
+#1 /home/ubuntu/workspace/CST336/lab5/index.php(117): displaySearchResults()
+#2 {main}
+  thrown in /home/ubuntu/workspace/CST336/lab5/index.php on line 65
+[11-Jul-2018 06:22:25 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/ubuntu/workspace/CST336/lab5/index.php:64
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/lab5/index.php(64): PDOStatement->execute(NULL)
+#1 /home/ubuntu/workspace/CST336/lab5/index.php(116): displaySearchResults()
+#2 {main}
+  thrown in /home/ubuntu/workspace/CST336/lab5/index.php on line 64
+[11-Jul-2018 06:22:40 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/ubuntu/workspace/CST336/lab5/index.php:64
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/lab5/index.php(64): PDOStatement->execute(NULL)
+#1 /home/ubuntu/workspace/CST336/lab5/index.php(116): displaySearchResults()
+#2 {main}
+  thrown in /home/ubuntu/workspace/CST336/lab5/index.php on line 64
+[11-Jul-2018 06:23:57 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/ubuntu/workspace/CST336/lab5/index.php:64
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/lab5/index.php(64): PDOStatement->execute(NULL)
+#1 /home/ubuntu/workspace/CST336/lab5/index.php(116): displaySearchResults()
+#2 {main}
+  thrown in /home/ubuntu/workspace/CST336/lab5/index.php on line 64
+[11-Jul-2018 06:24:02 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/ubuntu/workspace/CST336/lab5/index.php:64
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/lab5/index.php(64): PDOStatement->execute(NULL)
+#1 /home/ubuntu/workspace/CST336/lab5/index.php(116): displaySearchResults()
+#2 {main}
+  thrown in /home/ubuntu/workspace/CST336/lab5/index.php on line 64
+[11-Jul-2018 06:24:52 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/ubuntu/workspace/CST336/lab5/index.php:64
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/lab5/index.php(64): PDOStatement->execute(NULL)
+#1 /home/ubuntu/workspace/CST336/lab5/index.php(116): displaySearchResults()
+#2 {main}
+  thrown in /home/ubuntu/workspace/CST336/lab5/index.php on line 64
+[11-Jul-2018 06:25:07 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/ubuntu/workspace/CST336/lab5/index.php:64
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/lab5/index.php(64): PDOStatement->execute(NULL)
+#1 /home/ubuntu/workspace/CST336/lab5/index.php(116): displaySearchResults()
+#2 {main}
+  thrown in /home/ubuntu/workspace/CST336/lab5/index.php on line 64
+[11-Jul-2018 06:25:09 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/ubuntu/workspace/CST336/lab5/index.php:64
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/lab5/index.php(64): PDOStatement->execute(NULL)
+#1 /home/ubuntu/workspace/CST336/lab5/index.php(116): displaySearchResults()
+#2 {main}
+  thrown in /home/ubuntu/workspace/CST336/lab5/index.php on line 64
+[11-Jul-2018 06:25:10 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/ubuntu/workspace/CST336/lab5/index.php:64
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/lab5/index.php(64): PDOStatement->execute(NULL)
+#1 /home/ubuntu/workspace/CST336/lab5/index.php(116): displaySearchResults()
+#2 {main}
+  thrown in /home/ubuntu/workspace/CST336/lab5/index.php on line 64
+[11-Jul-2018 06:25:10 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/ubuntu/workspace/CST336/lab5/index.php:64
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/lab5/index.php(64): PDOStatement->execute(NULL)
+#1 /home/ubuntu/workspace/CST336/lab5/index.php(116): displaySearchResults()
+#2 {main}
+  thrown in /home/ubuntu/workspace/CST336/lab5/index.php on line 64
+[11-Jul-2018 06:25:11 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/ubuntu/workspace/CST336/lab5/index.php:64
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/lab5/index.php(64): PDOStatement->execute(NULL)
+#1 /home/ubuntu/workspace/CST336/lab5/index.php(116): displaySearchResults()
+#2 {main}
+  thrown in /home/ubuntu/workspace/CST336/lab5/index.php on line 64
+[11-Jul-2018 06:26:19 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/ubuntu/workspace/CST336/lab5/index.php:64
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/lab5/index.php(64): PDOStatement->execute(NULL)
+#1 /home/ubuntu/workspace/CST336/lab5/index.php(116): displaySearchResults()
+#2 {main}
+  thrown in /home/ubuntu/workspace/CST336/lab5/index.php on line 64
