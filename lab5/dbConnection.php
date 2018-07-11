@@ -6,8 +6,7 @@ function getDatabaseConnection($dbname = 'ottermart'){
     $username = 'root';
     $password = '';
     
-    
-    //when connecting from Heroku
+//when connecting from Heroku
     if  (strpos($_SERVER['HTTP_HOST'], 'herokuapp') !== false) {
         $url = parse_url(getenv("CLEARDB_DATABASE_URL"));
         $host = $url["host"];
@@ -16,8 +15,6 @@ function getDatabaseConnection($dbname = 'ottermart'){
         $password = $url["pass"];
     } 
 
-    
-    
     //creates db connection
     $dbConn = new PDO("mysql:host=$host;dbname=$dbname", $username, $password);
     
