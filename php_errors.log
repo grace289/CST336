@@ -879,3 +879,97 @@ Stack trace:
 #1 /home/ubuntu/workspace/CST336/lab5/index.php(117): displaySearchResults()
 #2 {main}
   thrown in /home/ubuntu/workspace/CST336/lab5/index.php on line 64
+[16-Jul-2018 04:48:51 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/ubuntu/workspace/CST336/lab6/login.php on line 25
+[16-Jul-2018 04:49:53 UTC] PHP Warning:  include(/CST336/lab6/dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/CST336/lab6/loginProcess.php on line 5
+[16-Jul-2018 04:49:53 UTC] PHP Stack trace:
+[16-Jul-2018 04:49:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/lab6/loginProcess.php:0
+[16-Jul-2018 04:49:53 UTC] PHP Warning:  include(): Failed opening '/CST336/lab6/dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/CST336/lab6/loginProcess.php on line 5
+[16-Jul-2018 04:49:53 UTC] PHP Stack trace:
+[16-Jul-2018 04:49:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/lab6/loginProcess.php:0
+[16-Jul-2018 04:49:53 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/CST336/lab6/loginProcess.php on line 7
+[16-Jul-2018 04:49:53 UTC] PHP Stack trace:
+[16-Jul-2018 04:49:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/lab6/loginProcess.php:0
+[16-Jul-2018 04:50:22 UTC] PHP Warning:  include(/CST336/lab6/dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/CST336/lab6/loginProcess.php on line 5
+[16-Jul-2018 04:50:22 UTC] PHP Stack trace:
+[16-Jul-2018 04:50:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/lab6/loginProcess.php:0
+[16-Jul-2018 04:50:22 UTC] PHP Warning:  include(): Failed opening '/CST336/lab6/dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/CST336/lab6/loginProcess.php on line 5
+[16-Jul-2018 04:50:22 UTC] PHP Stack trace:
+[16-Jul-2018 04:50:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/lab6/loginProcess.php:0
+[16-Jul-2018 04:50:22 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/CST336/lab6/loginProcess.php on line 7
+[16-Jul-2018 04:50:22 UTC] PHP Stack trace:
+[16-Jul-2018 04:50:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/lab6/loginProcess.php:0
+[16-Jul-2018 04:50:32 UTC] PHP Warning:  include(/CST336/lab6/dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/CST336/lab6/loginProcess.php on line 5
+[16-Jul-2018 04:50:33 UTC] PHP Stack trace:
+[16-Jul-2018 04:50:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/lab6/loginProcess.php:0
+[16-Jul-2018 04:50:33 UTC] PHP Warning:  include(): Failed opening '/CST336/lab6/dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/CST336/lab6/loginProcess.php on line 5
+[16-Jul-2018 04:50:33 UTC] PHP Stack trace:
+[16-Jul-2018 04:50:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/lab6/loginProcess.php:0
+[16-Jul-2018 04:50:33 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/CST336/lab6/loginProcess.php on line 7
+[16-Jul-2018 04:50:33 UTC] PHP Stack trace:
+[16-Jul-2018 04:50:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/lab6/loginProcess.php:0
+[16-Jul-2018 05:03:00 UTC] PHP Warning:  include(/CST336/lab6/dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/CST336/lab6/loginProcess.php on line 5
+[16-Jul-2018 05:03:00 UTC] PHP Stack trace:
+[16-Jul-2018 05:03:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/lab6/loginProcess.php:0
+[16-Jul-2018 05:03:00 UTC] PHP Warning:  include(): Failed opening '/CST336/lab6/dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/CST336/lab6/loginProcess.php on line 5
+[16-Jul-2018 05:03:00 UTC] PHP Stack trace:
+[16-Jul-2018 05:03:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/lab6/loginProcess.php:0
+[16-Jul-2018 05:03:00 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/CST336/lab6/loginProcess.php on line 7
+[16-Jul-2018 05:03:00 UTC] PHP Stack trace:
+[16-Jul-2018 05:03:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/lab6/loginProcess.php:0
+[16-Jul-2018 05:03:13 UTC] PHP Warning:  include(/CST336/lab6/dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/CST336/lab6/loginProcess.php on line 5
+[16-Jul-2018 05:03:13 UTC] PHP Stack trace:
+[16-Jul-2018 05:03:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/lab6/loginProcess.php:0
+[16-Jul-2018 05:03:13 UTC] PHP Warning:  include(): Failed opening '/CST336/lab6/dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/CST336/lab6/loginProcess.php on line 5
+[16-Jul-2018 05:03:13 UTC] PHP Stack trace:
+[16-Jul-2018 05:03:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/lab6/loginProcess.php:0
+[16-Jul-2018 05:03:13 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/CST336/lab6/loginProcess.php on line 7
+[16-Jul-2018 05:03:13 UTC] PHP Stack trace:
+[16-Jul-2018 05:03:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/lab6/loginProcess.php:0
+[16-Jul-2018 05:06:56 UTC] PHP Warning:  include(/CST336/lab6/dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/CST336/lab6/loginProcess.php on line 5
+[16-Jul-2018 05:06:56 UTC] PHP Stack trace:
+[16-Jul-2018 05:06:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/lab6/loginProcess.php:0
+[16-Jul-2018 05:06:56 UTC] PHP Warning:  include(): Failed opening '/CST336/lab6/dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/CST336/lab6/loginProcess.php on line 5
+[16-Jul-2018 05:06:56 UTC] PHP Stack trace:
+[16-Jul-2018 05:06:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/lab6/loginProcess.php:0
+[16-Jul-2018 05:06:56 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/CST336/lab6/loginProcess.php on line 7
+[16-Jul-2018 05:06:56 UTC] PHP Stack trace:
+[16-Jul-2018 05:06:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/lab6/loginProcess.php:0
+[16-Jul-2018 05:52:32 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/ubuntu/workspace/CST336/lab6/admin.php on line 51
+[16-Jul-2018 06:22:09 UTC] PHP Parse error:  syntax error, unexpected '[', expecting ',' or ';' in /home/ubuntu/workspace/CST336/lab6/updateProduct.php on line 42
+[16-Jul-2018 06:28:08 UTC] PHP Parse error:  syntax error, unexpected '[', expecting ',' or ';' in /home/ubuntu/workspace/CST336/lab6/updateProduct.php on line 37
+[16-Jul-2018 06:28:12 UTC] PHP Parse error:  syntax error, unexpected '[', expecting ',' or ';' in /home/ubuntu/workspace/CST336/lab6/updateProduct.php on line 37
+[16-Jul-2018 06:42:22 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/ubuntu/workspace/CST336/lab6/updateProduct.php:62
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/lab6/updateProduct.php(62): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/lab6/updateProduct.php on line 62
+[16-Jul-2018 06:55:38 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/ubuntu/workspace/CST336/lab6/updateProduct.php:62
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/lab6/updateProduct.php(62): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/lab6/updateProduct.php on line 62
+[16-Jul-2018 06:56:00 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/ubuntu/workspace/CST336/lab6/updateProduct.php:62
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/lab6/updateProduct.php(62): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/lab6/updateProduct.php on line 62
+[16-Jul-2018 07:01:26 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/ubuntu/workspace/CST336/lab6/updateProduct.php:62
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/lab6/updateProduct.php(62): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/lab6/updateProduct.php on line 62
+[16-Jul-2018 07:01:59 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/ubuntu/workspace/CST336/lab6/updateProduct.php:62
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/lab6/updateProduct.php(62): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/lab6/updateProduct.php on line 62
+[16-Jul-2018 07:31:16 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/ubuntu/workspace/CST336/lab6/updateProduct.php:62
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/lab6/updateProduct.php(62): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/lab6/updateProduct.php on line 62
+[16-Jul-2018 14:13:52 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/ubuntu/workspace/CST336/lab6/updateProduct.php:62
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/lab6/updateProduct.php(62): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/lab6/updateProduct.php on line 62
