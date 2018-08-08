@@ -973,3 +973,9 @@ Stack trace:
 #0 /home/ubuntu/workspace/CST336/lab6/updateProduct.php(62): PDOStatement->execute(Array)
 #1 {main}
   thrown in /home/ubuntu/workspace/CST336/lab6/updateProduct.php on line 62
+[04-Aug-2018 16:54:20 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/ubuntu/workspace/CST336/lab5/index.php:64
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/lab5/index.php(64): PDOStatement->execute(NULL)
+#1 /home/ubuntu/workspace/CST336/lab5/index.php(117): displaySearchResults()
+#2 {main}
+  thrown in /home/ubuntu/workspace/CST336/lab5/index.php on line 64

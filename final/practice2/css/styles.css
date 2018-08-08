@@ -1,0 +1,101 @@
+body {
+    font-family: Calibri;
+    font-size: 1.15em;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 0px;
+}
+
+#quiz, #mascot {
+    display: inline-block;   
+    vertical-align: top;
+    padding:10px;
+}
+
+.answer {
+    background-color: yellow;
+    margin: 5px;
+}
+
+tr {
+    background-color: white;
+}
+
+.correct { /* For Correct Answers */
+    color: green;
+}
+ 
+.incorrect { /* For Incorrect Answers */
+    color: red;
+}
+
+#feedback {
+    display: none;  /*Hides feedback when accessing quiz */
+    margin: 0 auto;
+    text-align: center;
+}
+
+/*Content Wrapper for everything under user menu*/ 
+.content-wrapper {
+    top: 100px;
+    position: relative;
+    width:850px;
+    margin:0 auto;
+    text-align: left;
+}
+
+/* User Fixed Menu When Logged In*/
+.user-menu {
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    position: fixed;
+    border-bottom: 1px solid black;
+    padding: 1em;
+    text-align: left;
+    font-size: 25px;
+    font-weight: bold;
+    background-color: lightblue;
+}
+
+
+body {
+    text-align:center;
+    font-size: 20px;
+    background-color:#2b5a88;
+}
+
+
+.jumbotron{
+    font-family: serif, cursive;
+    background-color : #75baff;
+    text-shadow: 2px 2px #1d5287;
+    color:white;
+}
+
+legend 
+{
+ font-size: 30px;
+ color: yellow;
+ text-shadow: 1px 2px black;
+ font-family: monospace;
+}
+
+#firstcont 
+{
+    font-family:Impact, Charcoal, sans-serif;
+    text-shadow: 1px 1px #64a3e3;
+    border-bottom-left-radius: 25px;
+}
+
+#button
+{
+    font-size:27px;
+    text-shadow: 1px 2px #1d5287;
+    border-color: #1d5287;
+    border-bottom-right-radius: 25px;
+    border-top-left-radius: 25px;
+}
