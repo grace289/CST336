@@ -979,3 +979,7 @@ Stack trace:
 #1 /home/ubuntu/workspace/CST336/lab5/index.php(117): displaySearchResults()
 #2 {main}
   thrown in /home/ubuntu/workspace/CST336/lab5/index.php on line 64
+[08-Aug-2018 06:50:20 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/ubuntu/workspace/CST336/cst336_group_final_project/cart.php on line 14
+[08-Aug-2018 06:50:20 UTC] PHP Stack trace:
+[08-Aug-2018 06:50:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/cst336_group_final_project/cart.php:0
+[08-Aug-2018 06:50:20 UTC] PHP   2. session_start() /home/ubuntu/workspace/CST336/cst336_group_final_project/cart.php:14
