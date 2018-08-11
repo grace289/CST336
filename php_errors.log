@@ -1027,3 +1027,33 @@ Stack trace:
 [11-Aug-2018 05:42:37 UTC] PHP Notice:  Trying to get property of non-object in /home/ubuntu/workspace/CST336/web_api/ebay.php on line 86
 [11-Aug-2018 05:42:37 UTC] PHP Stack trace:
 [11-Aug-2018 05:42:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/web_api/ebay.php:0
+[11-Aug-2018 07:13:41 UTC] PHP Fatal error:  Call to a member function query() on a non-object in /home/ubuntu/workspace/CST336/web_api/keyword_status.php on line 5
+[11-Aug-2018 07:13:41 UTC] PHP Stack trace:
+[11-Aug-2018 07:13:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/web_api/keyword_status.php:0
+[11-Aug-2018 07:14:06 UTC] PHP Fatal error:  Call to a member function query() on a non-object in /home/ubuntu/workspace/CST336/web_api/keyword_status.php on line 5
+[11-Aug-2018 07:14:06 UTC] PHP Stack trace:
+[11-Aug-2018 07:14:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/web_api/keyword_status.php:0
+[11-Aug-2018 07:14:08 UTC] PHP Fatal error:  Call to a member function query() on a non-object in /home/ubuntu/workspace/CST336/web_api/keyword_status.php on line 5
+[11-Aug-2018 07:14:08 UTC] PHP Stack trace:
+[11-Aug-2018 07:14:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/web_api/keyword_status.php:0
+[11-Aug-2018 07:14:54 UTC] PHP Fatal error:  Call to a member function query() on a non-object in /home/ubuntu/workspace/CST336/web_api/keyword_status.php on line 5
+[11-Aug-2018 07:14:54 UTC] PHP Stack trace:
+[11-Aug-2018 07:14:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/web_api/keyword_status.php:0
+[11-Aug-2018 07:14:54 UTC] PHP Fatal error:  Call to a member function query() on a non-object in /home/ubuntu/workspace/CST336/web_api/keyword_status.php on line 5
+[11-Aug-2018 07:14:54 UTC] PHP Stack trace:
+[11-Aug-2018 07:14:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/web_api/keyword_status.php:0
+[11-Aug-2018 07:17:08 UTC] PHP Fatal error:  Call to a member function query() on a non-object in /home/ubuntu/workspace/CST336/web_api/keyword_status.php on line 5
+[11-Aug-2018 07:17:08 UTC] PHP Stack trace:
+[11-Aug-2018 07:17:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/web_api/keyword_status.php:0
+[11-Aug-2018 07:17:08 UTC] PHP Fatal error:  Call to a member function query() on a non-object in /home/ubuntu/workspace/CST336/web_api/keyword_status.php on line 5
+[11-Aug-2018 07:17:08 UTC] PHP Stack trace:
+[11-Aug-2018 07:17:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/web_api/keyword_status.php:0
+[11-Aug-2018 07:17:09 UTC] PHP Fatal error:  Call to a member function query() on a non-object in /home/ubuntu/workspace/CST336/web_api/keyword_status.php on line 5
+[11-Aug-2018 07:17:09 UTC] PHP Stack trace:
+[11-Aug-2018 07:17:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/web_api/keyword_status.php:0
+[11-Aug-2018 07:17:09 UTC] PHP Fatal error:  Call to a member function query() on a non-object in /home/ubuntu/workspace/CST336/web_api/keyword_status.php on line 5
+[11-Aug-2018 07:17:09 UTC] PHP Stack trace:
+[11-Aug-2018 07:17:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/web_api/keyword_status.php:0
+[11-Aug-2018 07:17:09 UTC] PHP Fatal error:  Call to a member function query() on a non-object in /home/ubuntu/workspace/CST336/web_api/keyword_status.php on line 5
+[11-Aug-2018 07:17:09 UTC] PHP Stack trace:
+[11-Aug-2018 07:17:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/web_api/keyword_status.php:0
