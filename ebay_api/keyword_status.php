@@ -1,4 +1,5 @@
 <?php
+
 if(isset($_POST['search_token']) && $_POST['search_token'] == 'XAZXCVB##@E'){
     include('database.php'); 
     $sql = "SELECT `count` FROM keywords where keyword = '".$_POST['keyword']."' limit 1";
@@ -9,7 +10,7 @@ if(isset($_POST['search_token']) && $_POST['search_token'] == 'XAZXCVB##@E'){
         }
     }
      else {
-       echo ("this keyword never searched !");
+       echo ("This keyword has never been searched");
     } 
     $conn->close();
 }

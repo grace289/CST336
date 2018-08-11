@@ -1,5 +1,11 @@
 <?php
+session_start();
 include('header.php');
+
+
+include "database.php";
+$conn = getDatabaseConnection("ebay");
+
 ?>
 <div class="jumbotron text-center">
 <h1>eBay <b>Search API</b></h1>

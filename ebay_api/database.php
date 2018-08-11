@@ -1,4 +1,6 @@
 <?php
+
+
 	$servername = "localhost";
 	$username = "root";
 	$password = "";
@@ -10,12 +12,6 @@
 	if ($conn->connect_error) {
 	    die("Connection failed: " . $conn->connect_error);
 	} 
-	
-function getDatabaseConnection($dbname = 'ebay'){
-    $host = 'localhost'; //cloud9
-    //$dbname = 'tcp';
-    $username = 'root';
-    $password = '';
     
 //when connecting from Heroku
     if  (strpos($_SERVER['HTTP_HOST'], 'herokuapp') !== false) {

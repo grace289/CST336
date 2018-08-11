@@ -3,6 +3,8 @@ http://developer.ebay.com/DevZone/merchandising/docs/HowTo/PHP_Merchandising/PHP
 -->
 
 <?php
+
+
 if(isset($_POST['search_token']) && $_POST['search_token'] == 'XAZXCVB##@E'){
     error_reporting(E_ALL);  // Turn on all errors, warnings and notices for easier debugging
     // API request variables
