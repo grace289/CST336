@@ -32,7 +32,7 @@ include('header.php');
 	                    'search_token' :'XAZXCVB##@E'
 	                },
 	                success: function ($response) {
-	                    console.log('success');
+	                    alert($response);
 						$('#keyword_status').text($response);
 	                }
 	            });	
