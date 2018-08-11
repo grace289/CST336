@@ -1,10 +1,6 @@
 <?php
-session_start();
 include('header.php');
 
-
-include "database.php";
-$conn = getDatabaseConnection("ebay");
 
 ?>
 <div class="jumbotron text-center">
