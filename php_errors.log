@@ -1216,3 +1216,24 @@ Stack trace:
 [11-Aug-2018 08:11:53 UTC] PHP Fatal error:  Cannot redeclare getDatabaseConnection() (previously declared in /home/ubuntu/workspace/CST336/ebay_api/database.php:18) in /home/ubuntu/workspace/CST336/ebay_api/database.php on line 18
 [11-Aug-2018 08:11:53 UTC] PHP Stack trace:
 [11-Aug-2018 08:11:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/ebay_api/ebay.php:0
+[11-Aug-2018 14:51:03 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/CST336/ebay_api/database.php on line 52
+[11-Aug-2018 14:51:03 UTC] PHP Stack trace:
+[11-Aug-2018 14:51:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/ebay_api/keyword_status.php:0
+[11-Aug-2018 14:51:04 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/CST336/ebay_api/database.php on line 52
+[11-Aug-2018 14:51:04 UTC] PHP Stack trace:
+[11-Aug-2018 14:51:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/ebay_api/keyword_status.php:0
+[11-Aug-2018 14:51:07 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/CST336/ebay_api/database.php on line 52
+[11-Aug-2018 14:51:07 UTC] PHP Stack trace:
+[11-Aug-2018 14:51:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/ebay_api/ebay.php:0
+[11-Aug-2018 14:51:30 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/CST336/ebay_api/database.php on line 52
+[11-Aug-2018 14:51:30 UTC] PHP Stack trace:
+[11-Aug-2018 14:51:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/ebay_api/keyword_status.php:0
+[11-Aug-2018 14:51:32 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/CST336/ebay_api/database.php on line 52
+[11-Aug-2018 14:51:32 UTC] PHP Stack trace:
+[11-Aug-2018 14:51:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/ebay_api/keyword_status.php:0
+[11-Aug-2018 14:52:52 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/CST336/ebay_api/database.php on line 50
+[11-Aug-2018 14:52:52 UTC] PHP Stack trace:
+[11-Aug-2018 14:52:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/ebay_api/keyword_status.php:0
+[11-Aug-2018 14:52:53 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/CST336/ebay_api/database.php on line 50
+[11-Aug-2018 14:52:53 UTC] PHP Stack trace:
+[11-Aug-2018 14:52:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/ebay_api/keyword_status.php:0
