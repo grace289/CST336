@@ -23,6 +23,12 @@ function getDatabaseConnection($dbname = 'ebay'){
     
 //when connecting from Heroku
     if  (strpos($_SERVER['HTTP_HOST'], 'herokuapp') !== false) {
+        $host = "us-cdbr-iron-east-04.cleardb.net";
+        $username = "b10c72d07749b1";
+        $password = "8c762a59";
+        
+
+    if  (strpos($_SERVER['HTTP_HOST'], 'herokuapp') !== false) {
         $url = parse_url(getenv("CLEARDB_DATABASE_URL"));
         $host = $url["host"];
         $dbname = substr($url["path"], 1);
