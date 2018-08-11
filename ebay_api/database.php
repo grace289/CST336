@@ -1,28 +1,17 @@
-<?php
+    <?php
+	$servername = "localhost";
+	$username = "root";
+	$password = "";
+	$dbname = "ebay";
 
-// Create connection
-$conn = mysqli_connect($servername, $username, $password, $dbname);
-//$conn = new mysqli(;
-/* check connection */
-if (mysqli_connect_errno()) {
-printf("Connect failed: %s\n", mysqli_connect_error());
-exit();
-}
-
-
-
-
-
-
-
-
-function getDatabaseConnection($dbname = 'ebay'){
-    $host = 'localhost'; //cloud9
-    //$dbname = 'tcp';
-    $username = 'root';
-    $password = '';
-    
-//when connecting from Heroku
+	// Create connection
+	$conn = new mysqli($servername, $username, $password, $dbname);
+	// Check connection
+	if ($conn->connect_error) {
+	    die("Connection failed: " . $conn->connect_error);
+	} 
+	
+	//when connecting from Heroku
     if  (strpos($_SERVER['HTTP_HOST'], 'herokuapp') !== false) {
         $host = "us-cdbr-iron-east-04.cleardb.net";
         $username = "b10c72d07749b1";
@@ -34,7 +23,10 @@ function getDatabaseConnection($dbname = 'ebay'){
         $username = $url["user"];
         $password = $url["pass"];
     } 
-
+    
+    
+    
+    
     //creates db connection
     $dbConn = new PDO("mysql:host=$host;dbname=$dbname", $username, $password);
     
@@ -42,5 +34,7 @@ function getDatabaseConnection($dbname = 'ebay'){
     $dbConn -> setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
     
     return $dbConn;
-}    
+	
+	
+	
 ?>

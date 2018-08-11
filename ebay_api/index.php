@@ -1,11 +1,10 @@
 <?php
 include('header.php');
-
 ?>
 <div class="jumbotron text-center">
 <h1>eBay <b>Search API</b></h1>
    <div class="input-group Container col col-sm-5" style="margin-left: 30%;margin-top: 2%;margin-bottom: 2%">
-        <input type="text" id="keyword" class="form-control" style="height: 50px" size="50" placeholder="Enter a keyword e.g watch, book, phone, etc" required>
+        <input type="text" id="keyword" class="form-control" style="height: 50px" size="50" placeholder="Enter keyword e.g book, game, phone etc" required>
         <div class="input-group-btn">
             <button type="button" style="height:50px" onclick="search_ebay()" class="btn btn-danger">Search</button>
         </div>
@@ -16,7 +15,7 @@ include('header.php');
 
 <!-- Container (Portfolio Section) -->
 <div id="portfolio" class="container text-center bg-grey">
-	<img src="loading.gif" id="loading"  class="col col-md-3" style="margin-left:37% ;display: none; width: 100px; height: 50px;">
+	<img src="loading.gif" id="loading"  class="col col-md-3" style="margin-left:37% ;display: none;">
 <div id="results" class="text-center">
  </div>
 <br>
@@ -33,7 +32,7 @@ include('header.php');
 	                    'search_token' :'XAZXCVB##@E'
 	                },
 	                success: function ($response) {
-	                    console.log('success');
+	                    console.log('succees');
 						$('#keyword_status').text($response);
 	                }
 	            });	
@@ -43,7 +42,7 @@ include('header.php');
 	function search_ebay(){
 		$keyword = $('#keyword').val();
 		if($keyword == ''){
-			$("#error").text('[X] Please enter any keyword here ');
+			$("#error").text('Enter a keyword to search first ');
 		}
 		else{
 		    $('#results').empty();
